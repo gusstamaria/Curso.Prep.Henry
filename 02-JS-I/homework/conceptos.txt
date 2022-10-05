@@ -1,0 +1,14 @@
+Variables
+	lugar en memoria, que tiene nombre y un dato guardado
+
+Strings
+	cadena de texto
+
+Funciones (argumentos, return)
+	palabras que hacen acciones, algunas necesitan de datos de entrada y algunas no
+
+Declaraciones if
+	evalua una operacion y dependiendo si se cumple o no hace diferentes acciones
+
+Valores booleanos (true, false)
+	los valores booleanos son falsos o verdaderos, pueden contener varios argumentos
