@@ -208,7 +208,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return ('hola'+'   '+nombre);
+  return ('Hola'+'   '+nombre);
   
 }
 
@@ -231,6 +231,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
+  return ((base*altura)/2);
 
 }
 
@@ -239,7 +240,8 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  
+ 
+  return (euro*1.20);
 }
 
 
@@ -249,6 +251,39 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+
+  if ((letra.length)==1){
+
+    if ((letra=="a") || (letra=="A")){
+
+      return ("Es vocal")
+    }
+
+    if ((letra=="e") || (letra=="E")){
+
+      return ("Es vocal")
+    }
+    
+
+    if ((letra=="i") || (letra=="I")){
+
+      return ("Es vocal")
+    }
+    
+
+    if ((letra=="o") || (letra=="O")){
+
+      return ("Es vocal")
+    }
+    
+
+    if ((letra=="u") || (letra=="U")){
+
+      return ("Es vocal")
+    }
+
+  }
+    return ("Dato incorrecto");
   
 }
 
