@@ -93,10 +93,10 @@ function esDiezOCinco(numero) {
 
   if ((numero===10) || (numero==5)){
 
-    return  "true";
+    return  true;
   }
   
-    return "false";
+    return false;
 
 }
 
@@ -105,9 +105,9 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
 if ((numero<50) && (numero>20)){
-    return "true";
+    return true;
 }
-    return "false";
+    return false;
 }
 
 
@@ -121,9 +121,9 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
   if ((numero % 1) === 0){
-    return "true";
+    return true;
   }
-    return "false";
+    return false;
 }
 
 
@@ -174,7 +174,7 @@ function operadoresLogicos(num1, num2, num3) {
         }
       }
   
-return "false";
+return false;
  
 }
 
@@ -187,18 +187,18 @@ function esPrimo(numero) {
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero<2){
-    return "false";
+    return false;
   }
   if(numero===2){
-    return "true";
+    return true;
   }
    
   for(var c = 2; c < numero; c++) {
     if((numero%c)===0) {
-      return "false";
+      return false;
     }
   }
-  return "true";
+  return true;
 }
 
 
@@ -233,7 +233,7 @@ function tieneTresDigitos(numero){
   if ((numero>99) && (numero<1000)){
     return "tiene tres digitos";
   }
-    return "false";
+    return false;
   
 }
 
@@ -241,7 +241,14 @@ function doWhile(numero) {
   //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
   //Retornar el valor final.
   //Usar el bucle do ... while.
+var c=0;
+  do {
+    c=c+1;
+    numero=numero+5;
+  }while(c<8);
+  return numero;
 }
+
 
 
 // No modificar nada debajo de esta línea
