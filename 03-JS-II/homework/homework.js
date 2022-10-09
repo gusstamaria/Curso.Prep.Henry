@@ -68,17 +68,12 @@ function colors(color) {
   if (color==="blue"){
     return "This is blue";
   }
-
   if (color==="red"){
     return "This is red";
   }
-
-
   if (color==="green"){
     return "This is green";
   }
-
-  
     return "Color not found";
   
 
@@ -248,6 +243,7 @@ var c=0;
   }while(c<8);
   return numero;
 }
+
 
 
 
