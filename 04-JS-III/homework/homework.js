@@ -169,7 +169,7 @@ function empiezaConNueve(n) {
   }
   return false
 }
-  |
+  
 
 
 function todosIguales(arreglo) {
@@ -182,6 +182,9 @@ function todosIguales(arreglo) {
     }
   return true;
 } 
+
+}
+
 
 
 function mesesDelAño(array) {
