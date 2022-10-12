@@ -1,0 +1,2 @@
+los atrrays son un tipo de dato que guarda datos ordenadamente, con espacios en memoria que tienen un nombre y una posicion
+los datos guardados se pueden llamar y hacer operaciones con ellos, reeplazar, borrra, eliminar
